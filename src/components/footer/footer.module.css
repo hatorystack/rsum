@@ -1,0 +1,12 @@
+@value makerWhite, makerPurple from '../../common/colors.css';
+
+.footer {
+  width: 100%;
+  background-color: makerPurple;
+  border-radius: 0 0 1.2rem 1.2rem;
+  text-align: center;
+}
+
+.title {
+  color: makerWhite;
+}
