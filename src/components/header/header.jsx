@@ -3,7 +3,7 @@ import styles from './header.module.css';
 
 const Header = ({ onLogout }) => (
   <header className={styles.header}>
-    {onLogout && <button>Logout</button>}
+    {onLogout && <button onClick={onLogout}>Logout</button>}
     <h1 className={styles.title}>My Rsum</h1>
   </header>
 );
